@@ -1,0 +1,62 @@
+{
+  // 控制是否已启用括号对着色
+  "editor.bracketPairColorization.enabled": true,
+  // 控制是否启用括号对指南
+  "editor.guides.bracketPairs": "active",
+  // 自动从当前 Git 存储库的默认远程库提取提交
+  "git.autofetch": true,
+  // 控制活动代码段是否阻止快速建议
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  // 在 Windows 上使用的默认配置文件
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  // 启用后，差异编辑器将忽略前导空格或尾随空格中的更改
+  "diffEditor.ignoreTrimWhitespace": false,
+  // 默认行尾字符
+  "files.eol": "\n",
+  // 控制是否启用平滑插入动画
+  "editor.cursorSmoothCaretAnimation": true,
+  // 控制光标的动画样式
+  "editor.cursorBlinking": "smooth",
+  // 控制光标周围可见的前置行和尾随行的最小数目
+  "editor.cursorSurroundingLines": 15,
+  // 控制列表和树是否具有平滑滚动效果
+  "workbench.list.smoothScrolling": true,
+  // 控制编辑器是否使用动画滚动
+  "editor.smoothScrolling": true,
+
+  /* Extension configs */
+
+  /* 需要安装颜色主题扩展：One Dark Pro */
+  // 指定用在工作台中的颜色主题
+  "workbench.colorTheme": "One Dark Pro Darker",
+  // 设置部分代码为粗体
+  "oneDarkPro.bold": true,
+  // 设置色彩为 vivid
+  "oneDarkPro.vivid": true,
+
+  /* 需要安装文件图标主题扩展：vscode-icons */
+  // 指定工作台中使用的文件图标主题
+  "workbench.iconTheme": "vscode-icons",
+
+  /* 需要安装字体 Fira Code */
+  // https://github.com/tonsky/FiraCode
+  // windows 默认字体：微软雅黑
+  "editor.fontFamily": "'Fira Code', '微软雅黑', Consolas, 'Courier New', monospace",
+  // 启用/禁用字体连字
+  "editor.fontLigatures": true,
+
+  /* 需要安装 ESLint */
+  // 在保存时运行的代码操作类型
+  "editor.codeActionsOnSave": {
+    // 控制是否应在文件保存时运行自动修复操作
+    "source.fixAll": false,
+    // this allows ESLint to auto fix on save
+    "source.fixAll.eslint": true,
+    // 控制是否应在文件保存时运行"整理 import 语句"操作
+    "source.organizeImports": false
+  },
+
+  /* 需要安装 Prettier */
+  // 定义一个默认格式化程序, 该格式化程序优先于所有其他格式化程序设置
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
