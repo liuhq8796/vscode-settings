@@ -1,12 +1,24 @@
 {
   /* 编辑器配置 */
 
+  // 控制字体大小(像素)
+  "editor.fontSize": 16,
+  // 控制终端的字号(以像素为单位)
+  "terminal.integrated.fontSize": 16,
+
+  // 默认行尾字符
+  "files.eol": "\n",
+
   // 控制是否已启用括号对着色
   "editor.bracketPairColorization.enabled": true,
   // 控制是否启用括号对指南
   "editor.guides.bracketPairs": "active",
+
   // 控制活动代码段是否阻止快速建议
   "editor.suggest.snippetsPreventQuickSuggestions": false,
+  // 控制除了 Tab 键以外， Enter 键是否同样可以接受建议
+  "editor.acceptSuggestionOnEnter": "off",
+
   // 控制是否启用平滑插入动画
   "editor.cursorSmoothCaretAnimation": true,
   // 控制光标的动画样式
@@ -15,14 +27,13 @@
   "editor.cursorSurroundingLines": 15,
   // 控制编辑器是否使用动画滚动
   "editor.smoothScrolling": true,
+  // 控制列表和树是否具有平滑滚动效果
+  "workbench.list.smoothScrolling": true,
+
   // 自动从当前 Git 存储库的默认远程库提取提交
   "git.autofetch": true,
   // 启用后，差异编辑器将忽略前导空格或尾随空格中的更改
   "diffEditor.ignoreTrimWhitespace": false,
-  // 默认行尾字符
-  "files.eol": "\n",
-  // 控制列表和树是否具有平滑滚动效果
-  "workbench.list.smoothScrolling": true,
 
   /* 具有依赖的配置 */
 
@@ -33,15 +44,19 @@
   // 启用/禁用字体连字
   // 配合 Fira Code 字体使用
   "editor.fontLigatures": true,
+
   // 需要在windows系统种安装 git bash
   // 在 Windows 上使用的默认配置文件
   "terminal.integrated.defaultProfile.windows": "Git Bash",
+
   // 需要安装颜色主题扩展：One Dark Pro
   // 指定用在工作台中的颜色主题
   "workbench.colorTheme": "One Dark Pro Darker",
+
   // 需要安装文件图标主题扩展：vscode-icons
   // 指定工作台中使用的文件图标主题
   "workbench.iconTheme": "vscode-icons",
+
   // 需要安装 ESLint
   // 在保存时运行的代码操作类型
   "editor.codeActionsOnSave": {
@@ -52,6 +67,7 @@
     // 控制是否应在文件保存时运行"整理 import 语句"操作
     "source.organizeImports": false
   },
+
   // 需要安装 Prettier
   // 定义一个默认格式化程序, 该格式化程序优先于所有其他格式化程序设置
   "editor.defaultFormatter": "esbenp.prettier-vscode",
