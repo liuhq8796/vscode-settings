@@ -35,12 +35,10 @@
   // 启用后，差异编辑器将忽略前导空格或尾随空格中的更改
   "diffEditor.ignoreTrimWhitespace": false,
 
-  /* File Nesting */
-
-  // 通过 File Nesting Updater 来更新
-  // https://github.com/antfu/vscode-file-nesting-config
-
   /* 具有依赖的配置 */
+
+  // File Nesting 设置通过 File Nesting Updater 插件来更新
+  // https://github.com/antfu/vscode-file-nesting-config
 
   // 需要安装字体 Fira Code
   // https://github.com/tonsky/FiraCode
