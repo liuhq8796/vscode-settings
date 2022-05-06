@@ -78,6 +78,12 @@
   // 配合 editor.defaultFormatter 使用
   "editor.formatOnSave": true,
 
+  // Path Intellisense 需要覆盖的设置
+  // 但如果为了 Volar 开启 TS 功能，禁用了内置的 TS 支持
+  // 就不再需要覆盖
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+
   /* Extension configs */
 
   // 设置部分代码为粗体
