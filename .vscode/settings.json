@@ -10,6 +10,7 @@
   "files.eol": "\n",
 
   // 控制是否已启用括号对着色
+  // 系统默认是开启的
   "editor.bracketPairColorization.enabled": true,
   // 控制是否启用括号对指南
   "editor.guides.bracketPairs": "active",
@@ -29,6 +30,8 @@
   "editor.smoothScrolling": true,
   // 控制列表和树是否具有平滑滚动效果
   "workbench.list.smoothScrolling": true,
+  // 控制终端是否将使用动画滚动
+  "terminal.integrated.smoothScrolling": true,
 
   // 自动从当前 Git 存储库的默认远程库提取提交
   "git.autofetch": true,
@@ -37,6 +40,7 @@
 
   /* 具有依赖的配置 */
 
+  // 这个感觉不好用，想找配置文件的时候还得找半天
   // File Nesting 设置通过 File Nesting Updater 插件来更新
   // https://github.com/antfu/vscode-file-nesting-config
 
