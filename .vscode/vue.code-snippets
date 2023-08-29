@@ -1,0 +1,45 @@
+{
+    // Place your my-github 工作区 snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+    // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+    // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+    // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+    // Placeholders with the same ids are connected.
+    // Example:
+    // "Print to console": {
+    // 	"scope": "javascript,typescript",
+    // 	"prefix": "log",
+    // 	"body": [
+    // 		"console.log('$1');",
+    // 		"$2"
+    // 	],
+    // 	"description": "Log output to console"
+    // }
+    "Vue SFC Template": {
+        "prefix": "sfc",
+        "body": [
+            "<script setup lang=\"${1:ts}\">",
+            "  $2",
+            "</script>",
+            "",
+            "<template>",
+            "  <div class=\"${3:contents}\"></div>",
+            "</template>",
+            "",
+            "<style scoped lang=\"${4:scss}\">",
+            ".${3:contents} {}",
+            "</style>"
+        ],
+        "description": "初始化 vue3 SFC 模板"
+    },
+    "Vue Define Props": {
+        "prefix": "props",
+        "body": ["const props = withDefaults(defineProps<{", "  $1;", "}>(), {", "  $2,", "})"],
+        "description": "初始化 vue3 props 定义"
+    },
+    "Vue Define Emits": {
+        "prefix": "emits",
+        "body": ["const emit = defineEmit<{", "  $1: [$2: $3]", "}>()"],
+        "description": "初始化 vue3 emits 定义"
+    }
+}
