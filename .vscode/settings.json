@@ -68,16 +68,18 @@
   // 在保存时运行的代码操作类型
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",
+    // 控制是否应在文件保存时运行"source.fixAll.eslint"操作。
     "source.fixAll.eslint": "explicit",
+    // 控制是否应在文件保存时运行"整理 import 语句"操作。
     "source.organizeImports": "never"
   },
 
   // 需要安装 Prettier
   // 定义一个默认格式化程序, 该格式化程序优先于所有其他格式化程序设置
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
   // 在保存时格式化文件
   // 配合 editor.defaultFormatter 使用
-  "editor.formatOnSave": true,
+  // "editor.formatOnSave": true,
 
   // Path Intellisense 需要覆盖的设置
   // 但如果为了 Volar 开启 TS 功能，禁用了内置的 TS 支持
