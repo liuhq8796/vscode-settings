@@ -21,7 +21,7 @@
   "editor.acceptSuggestionOnEnter": "off",
 
   // 控制是否启用平滑插入动画
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   // 控制光标的动画样式
   "editor.cursorBlinking": "smooth",
   // 控制光标周围可见的前置行和尾随行的最小数目
@@ -67,12 +67,9 @@
   // 需要安装 ESLint
   // 在保存时运行的代码操作类型
   "editor.codeActionsOnSave": {
-    // 控制是否应在文件保存时运行自动修复操作
-    "source.fixAll": false,
-    // this allows ESLint to auto fix on save
-    "source.fixAll.eslint": true,
-    // 控制是否应在文件保存时运行"整理 import 语句"操作
-    "source.organizeImports": false
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
   },
 
   // 需要安装 Prettier
