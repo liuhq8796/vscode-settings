@@ -4,5 +4,9 @@
     "vscode-icons-team.vscode-icons",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
+    "yzhang.markdown-all-in-one",
+    "mhutchie.git-graph",
+    "ms-ceintl.vscode-language-pack-zh-hans",
+    "vue.volar"
   ]
 }
