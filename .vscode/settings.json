@@ -85,8 +85,8 @@
   "editor.formatOnSave": false,
 
   // Path Intellisense 需要覆盖的设置
-  "typescript.suggest.paths": false,
-  "javascript.suggest.paths": false,
+  // "typescript.suggest.paths": false,
+  // "javascript.suggest.paths": false,
 
   /* Extension configs */
 
